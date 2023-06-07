@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favi.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Bem-vindo a UNIGAMES</title>
+</head>
+<body>
+
+    <!------------------------- HEADER - BARRA/TOPO DO SITE ------------------------->
+
+    <div class="sidebar">
+        <div class="logo_content">
+          <div class="logo">
+            <img class="logo_name" src="/img/one.png" alt="">
+          </div>
+          <div class="btn_toggle">
+            <i class='bx bx-menu'></i>
+          </div>
+        </div>
+        
+        <ul class="nav">
+          <li id="home-li">
+              <a href="/">
+                  <i class='bx bxs-home'></i>
+                  <span class="nav-item">Home</span>
+              </a>
+          </li>
+          <li id="login-li">
+              <a id="usuario-link" href="/login_page">
+                  <i class='bx bxs-user-circle'></i>
+                  <span class="nav-item" id="login-span">Login</span>
+                  <span id="nome-usuario" class="nav-item"></span>
+                </a>                  
+          </li>
+          <li>
+              <a href="/register_page">
+                  <i class='bx bx-clipboard'></i>
+                  <span class="nav-item">Registra-se</span>
+              </a>
+          </li>
+          <li>
+              <a href="/store_page">
+                  <i class='bx bxs-store-alt'></i>
+                  <span class="nav-item">Loja</span>
+              </a>
+          </li>
+          <li>
+              <a href="/faq_page">
+                  <i class='bx bx-help-circle'></i>
+                  <span class="nav-item">FAQ</span>
+              </a>
+          </li>
+          <li>
+              <form action="/logout" method="POST" class="logout-form">
+                <a href="/logout" id="logout-button">
+                  <i class='bx bxs-exit'></i>
+                  <span class="nav-item">Sair</span>
+                </a>                                                    
+              </form>
+            </li>
+      </ul>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>      
+      
+    <!------------------------- CONTEUDO OFICIAL DO SITE ------------------------->  
+<div class="wrapper">
+    
+    <div class="container-search">
+        <form class="form-search">
+            <i class='bx bx-search-alt-2'></i>
+                <input type="text" id="search-input" placeholder="Qual jogo está procurando?">
+                <button id="search-button">Buscar</button>
+         </form>
+    </div>
+    <div id="no-results-message" 
+    style="display: none;
+     color:aliceblue;
+      background-color: brown;
+       border-radius: 10px;
+        justify-items: center;
+        align-items: center;
+        padding: 5px 5px 5px 5px;
+         text-align: center;
+          box-sizing: border-box;
+            margin: 0;
+                margin-top: 120px; 
+                    width: 200px">Nenhum resultado encontrado</div>  
+
+<!------------------------- CARDS ------------------------->
+
+     <div class="wrapper-home">  
+        <div class="container">
+
+    <!------------ 1º CARD ------------>
+
+                    <div class="card">
+                        <div class="card-header">
+                        <img src="/img/residente.jpg" class="card-img" />
+                        </div>
+                        <div class="card-body">
+                        <h3 class="card-local">PC/PS/XBOX</h3>
+                        <h2 class="card-titulo">RES: EVIL REMAKE</h2>
+                        <p class="card-texto">
+                            Lançamento: 23 de março de 2023
+                        </p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="https://www.residentevil.com/re4/pt-br/">VER MAIS</a>
+                        </div>
+                    </div>
+
+    <!------------ 2º CARD ------------>
+
+                    <div class="card">
+                      <div class="card-header">
+                        <img src="/img/star.jpg" class="card-img" />
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-local">PC/PS/XBOX</h3>
+                        <h2 class="card-titulo">STAR WARS: JEDI SURVIVER</h2>
+                        <p class="card-texto">
+                            Lançamento: 28 de abril de 2023
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="https://www.ea.com/pt-br/games/starwars/jedi/jedi-survivor/buy">VER MAIS</a>
+                      </div>
+                    </div>
+
+    <!------------ 3º CARD ------------>
+
+                    <div class="card">
+                      <div class="card-header">
+                        <img src="/img/dead.jfif" class="card-img" />
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-local">PC/PS/XBOX</h3>
+                        <h2 class="card-titulo">Dead Island 2</h2>
+                        <p class="card-texto">
+                            Lançamento: 21 de abril de 2023
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="https://store.epicgames.com/pt-BR/p/dead-island-2">VER MAIS</a>
+                      </div>
+                    </div>
+
+    <!------------ 4º CARD ------------>
+                  
+                    <div class="card">
+                        <div class="card-header">
+                        <img src="/img/zelda.jpg" class="card-img" />
+                        </div>
+                        <div class="card-body">
+                        <h3 class="card-local">NINTENDO SWITCH</h3>
+                        <h2 class="card-titulo">The Legends of Zelda: Tears of the Kingdom</h2>
+                        <p class="card-texto">
+                            Lançamento: 12 de maio de 2023
+                        </p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="https://www.nintendo.com/pt-br/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/">VER MAIS</a>
+                        </div>
+                    </div>
+
+    <!------------ 5º CARD ------------>
+
+                    <div class="card">
+                        <div class="card-header">
+                        <img src="/img/spiderman.webp" class="card-img" />
+                        </div>
+                        <div class="card-body">
+                        <h3 class="card-local">PC/PS</h3>
+                        <h2 class="card-titulo">Spider-Man 2</h2>
+                        <p class="card-texto">
+                            Lançamento: <strong>Previsão Outono 2023*</strong>
+                        </p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="https://www.playstation.com/pt-br/games/marvels-spider-man-2/">VER MAIS</a>
+                        </div>
+                    </div>
+
+    <!------------ 6º CARD ------------>
+
+                    <div class="card">
+
+                        <div class="card-header">
+                        <img src="/img/diabl.jpg" class="card-img" />
+                        </div>
+                        <div class="card-body">
+                        <h3 class="card-local">PC/XBOX/PS4</h3>
+                        <h2 class="card-titulo">DIABLO 2</h2>
+                        <p class="card-texto">
+                            Lançamento: 6 de junho de 2023
+                        </p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="https://diablo4.blizzard.com/pt-br/">VER MAIS</a>
+                        </div>
+                    </div>
+
+    <!------------ 7º CARD ------------>
+
+                    <div class="card">
+                        <div class="card-header">
+                        <img src="/img/herry.jfif" class="card-img" />
+                        </div>
+                        <div class="card-body">
+                        <h3 class="card-local">PS/PC/XBOX</h3>
+                        <h2 class="card-titulo">Hogwarts Legacy</h2>
+                        <p class="card-texto">
+                            Lançamento: 7 de fevereiro de 2023
+                        </p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="https://www.hogwartslegacy.com/pt-br/purchase">VER MAIS</a>
+                        </div>
+                    </div>
+
+    <!------------ 8º CARD ------------>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                        <img src="/img/avatar.jpg" class="card-img" />
+                        </div>
+                        <div class="card-body">
+                        <h3 class="card-local">PS4/PC</h3>
+                        <h2 class="card-titulo">Avatar: Frontiers of Pandora</h2>
+                        <p class="card-texto">
+                            Lançamento: <strong>Previsão até o final de 2023*</strong>
+                        </p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="https://store.ubisoft.com/ofertas/game?lang=pt_BR&pid=60c30ca40d253c1914049e93&dwvar_60c30ca40d253c1914049e93_Platform=pcdl&edition=The%20Game&source=detailhttps://ad.doubleclick.net/ddm/clk/554899094;364005010;h">VER MAIS</a>
+                        </div>
+                    </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
