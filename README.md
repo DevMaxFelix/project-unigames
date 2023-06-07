@@ -6,7 +6,7 @@ Projeto exclusivo para Faculdade de Ciência da Computação na Uninove, Campus 
 
 #### LINK PARA O VIDEO NO YOUTUBE: ()
 
-### TECNOLOGIAS UTILIZADAS: <br/>
+### PRINCIPAIS TECNOLOGIAS UTILIZADAS: <br/>
 
   <div>
     <img align="center" alt="JS" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> 
