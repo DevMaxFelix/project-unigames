@@ -4,7 +4,7 @@
 Projeto exclusivo para Faculdade de Ciência da Computação na Uninove, Campus MEMORIAL - Prof. Thiago G. Traue <br/>
 ###### Site com temática gamer com intuito de apresentar novidades dos ultimos lançamentos e proporcionando interação com os usuarios.
 
-#### LINK PARA O VIDEO NO YOUTUBE: ()
+#### LINK PARA O VIDEO NO YOUTUBE: (https://youtu.be/oUzYsLr-6CA)
 
 ### PRINCIPAIS TECNOLOGIAS UTILIZADAS: <br/>
 
@@ -28,3 +28,8 @@ Projeto exclusivo para Faculdade de Ciência da Computação na Uninove, Campus 
 ## CONTRIBUIÇÃO:
 
 MAX, CESAR, MATHEUS, LARISSA, IGOR, GABRIEL.
+
+
+###### <strong> *Notas importantes: </strong> Tivemos bastante problema com BACKEND e banco de dados, principalmente na parte do CRUD por falta de conhecimento mesmo.
+###### *Gostariamos de agradecer o Prof. Traue pela oportunidade do projeto pois para mim (Max) elevou bastante as minha SKILLS e me fez perceber que
+###### *preciso melhorar em bastante coisa, principalmente na programação e banco de dados. 
