@@ -1,12 +1,12 @@
 ### <h1> <strong> PROJETO UNINOVE </strong> - UNIGAMES GRUPO 3 </h1>
 <br/>
 
-Projeto exclusivo para Faculdade de Ciência da Computação na Uninove, Campus MEMORIAL.
-Site com temática gamer com intuito de apresentar novidades dos ultimos lançamentos e proporcionando interação com os usúarios.
+Projeto exclusivo para Faculdade de Ciência da Computação na Uninove, Campus MEMORIAL - Prof. Thiago G. Traue <br/>
+###### Site com temática gamer com intuito de apresentar novidades dos ultimos lançamentos e proporcionando interação com os usuarios.
 
 #### LINK PARA O VIDEO NO YOUTUBE: ()
 
-### TECNOLOGIAS UTILIZADAS <br/>
+### TECNOLOGIAS UTILIZADAS: <br/>
 
   <div>
     <img align="center" alt="JS" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> 
